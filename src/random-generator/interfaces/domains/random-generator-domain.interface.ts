@@ -15,6 +15,7 @@ export interface RandomGeneratorDomainInterface {
   generateFacebookLink(): string;
   generateTwitterLink(): string;
   generateLinkedInLink(): string;
+  generateInstagramLink(): string
   generateString(): string;
   generateNumber(): string;
   generateDate(): Date;

@@ -167,6 +167,15 @@ describe('On RandomGeneratorDomain ', () => {
     });
   });
 
+  describe('On generateInstagramLink', () => {
+    it('Should return random instagram link', () => {
+      const result = randomGeneratorDomain.generateInstagramLink();
+
+      expect(result).toBeDefined();
+      expect(typeof result).toBe('string');
+    });
+  });
+
   describe('On generateString', () => {
     it('Should return random string', () => {
       const result = randomGeneratorDomain.generateLinkedInLink();

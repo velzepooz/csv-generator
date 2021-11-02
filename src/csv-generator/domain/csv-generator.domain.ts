@@ -25,6 +25,7 @@ export class CsvGeneratorDomain implements CsvGeneratorDomainInterface {
     facebookLink: () => this._randomGeneratorDomain.generateFacebookLink(),
     twitterLink: () => this._randomGeneratorDomain.generateTwitterLink(),
     linkedInLink: () => this._randomGeneratorDomain.generateLinkedInLink(),
+    instagramLink: () => this._randomGeneratorDomain.generateInstagramLink(),
     stringType: () => this._randomGeneratorDomain.generateString(),
     numberType: () => this._randomGeneratorDomain.generateNumber(),
     dateType: () => this._randomGeneratorDomain.generateDate(),

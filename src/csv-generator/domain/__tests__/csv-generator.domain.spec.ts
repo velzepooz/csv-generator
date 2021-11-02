@@ -34,6 +34,7 @@ describe('On CsvGeneratorDomain', () => {
         [faker.lorem.word()]: 'facebookLink',
         [faker.lorem.word()]: 'twitterLink',
         [faker.lorem.word()]: 'linkedInLink',
+        [faker.lorem.word()]: 'instagramInLink',
         [faker.lorem.word()]: 'stringType',
         [faker.lorem.word()]: 'numberType',
         [faker.lorem.word()]: 'dateType',

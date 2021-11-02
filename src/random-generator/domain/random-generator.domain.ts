@@ -68,6 +68,10 @@ export class RandomGeneratorDomain implements RandomGeneratorDomainInterface {
     return `https://www.linkedin.com/in/${faker.random.word()}/`;
   }
 
+  generateInstagramLink(): string {
+    return `https://www.instagram.com/${faker.random.word()}/`;
+  }
+
   generateString(): string {
     return faker.random.words();
   }
